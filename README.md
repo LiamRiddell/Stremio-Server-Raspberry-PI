@@ -65,7 +65,7 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/certs:/etc/nginx/certs:ro # Map your SSL certificate directory
     ports:
-      - "443:443"
+      - "12470:443"
     depends_on:
       - stremio-server
     restart: unless-stopped
