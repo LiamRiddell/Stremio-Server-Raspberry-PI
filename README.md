@@ -1,5 +1,5 @@
 # Stremio-Server-Raspberry-PI
-Here is a guide on setting up a streaming server for Stremio which is accessible on the local network and the PI itself. This works should work for pretty much any device with web browser.
+Here is a guide on setting up a streaming server for Stremio which is accessible on the local network and the PI itself. This should work for any device with web browser.
 
 ## 1. Install Docker
 You will need docker for this as it allows us to host `stremio-server`
